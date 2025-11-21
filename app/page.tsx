@@ -535,15 +535,9 @@ export default function HomePage() {
                       <div>
                         <h3 className="text-white font-semibold text-lg mb-1">Address</h3>
                         <p className="text-slate-400">
-<<<<<<< HEAD
                           8-368, 3d Floor, Mangamuru Rd, Pandaripuram, Ongole, 
                           <br />
                           Andhra Pradesh 523002
-=======
-                          123 Fitness Street, Gym District
-                          <br />
-                          New York, NY 10001
->>>>>>> e755393e123c1ef65b397b1c017ec917c760836a
                         </p>
                       </div>
                     </div>
@@ -554,11 +548,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h3 className="text-white font-semibold text-lg mb-1">Phone</h3>
-<<<<<<< HEAD
                         <p className="text-slate-400">+9199664 50789</p>
-=======
-                        <p className="text-slate-400">+1 (555) 123-4567</p>
->>>>>>> e755393e123c1ef65b397b1c017ec917c760836a
                       </div>
                     </div>
 
@@ -568,11 +558,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h3 className="text-white font-semibold text-lg mb-1">Email</h3>
-<<<<<<< HEAD
                         <p className="text-slate-400">info@O2Fitness.com</p>
-=======
-                        <p className="text-slate-400">info@premiumgym.com</p>
->>>>>>> e755393e123c1ef65b397b1c017ec917c760836a
                       </div>
                     </div>
 
@@ -583,15 +569,9 @@ export default function HomePage() {
                       <div>
                         <h3 className="text-white font-semibold text-lg mb-1">Opening Hours</h3>
                         <p className="text-slate-400">
-<<<<<<< HEAD
                           Mon - Sat: 5:00 AM To 11:00 AM & 4:00PM TO 10:00 PM
                           <br />
                            Sunday: 5:00 AM - 10:00 AM
-=======
-                          Monday - Friday: 5:00 AM - 11:00 PM
-                          <br />
-                          Saturday - Sunday: 6:00 AM - 10:00 PM
->>>>>>> e755393e123c1ef65b397b1c017ec917c760836a
                         </p>
                       </div>
                     </div>
@@ -634,11 +614,7 @@ export default function HomePage() {
             Transform Your Body. Transform Your Life.
           </p>
           <p className="text-slate-500 text-sm">
-<<<<<<< HEAD
             © 2024 O2 Fitness. All rights reserved.
-=======
-            © 2024 Premium Gym Management. All rights reserved.
->>>>>>> e755393e123c1ef65b397b1c017ec917c760836a
           </p>
         </div>
       </footer>
