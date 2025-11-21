@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base {
+  :root {
+    /* Light theme – grey background, yellow accents */
+    --background: 0 0% 96%;        /* light grey */
+    --foreground: 0 0% 10%;        /* almost black text */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    /* MAIN BRAND COLORS */
+    --primary: 48 96% 55%;         /* warm yellow */
+    --primary-foreground: 0 0% 10%;/* dark text on yellow */
+
+    --secondary: 0 0% 70%;         /* mid grey */
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 0 0% 85%;             /* soft grey */
+    --muted-foreground: 0 0% 35%;
+
+    --accent: 48 96% 55%;          /* use yellow as accent too */
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 80%;            /* grey borders */
+    --input: 0 0% 90%;
+    --ring: 48 96% 55%;            /* yellow focus ring */
+
+    /* chart colors can stay or be adjusted later */
+    --chart-1: 48 96% 55%;         /* yellow */
+    --chart-2: 0 0% 60%;           /* grey */
+    --chart-3: 0 0% 40%;
+    --chart-4: 48 96% 65%;
+    --chart-5: 0 0% 30%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark theme – dark grey background, yellow accents */
+    --background: 0 0% 7%;         /* very dark grey */
+    --foreground: 0 0% 96%;        /* near white text */
+
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 96%;
+
+    --primary: 48 96% 55%;         /* keep yellow as brand */
+    --primary-foreground: 0 0% 10%;
+
+    --secondary: 0 0% 25%;         /* dark grey */
+    --secondary-foreground: 0 0% 96%;
+
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 48 96% 55%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 62.8% 45.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 30%;
+    --input: 0 0% 20%;
+    --ring: 48 96% 55%;
+
+    --chart-1: 48 96% 55%;
+    --chart-2: 0 0% 60%;
+    --chart-3: 0 0% 40%;
+    --chart-4: 48 96% 65%;
+    --chart-5: 0 0% 30%;
+  }
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
