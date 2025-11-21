@@ -154,7 +154,13 @@ export default function LoginPage() {
                 )}
               </Button>
 
+<<<<<<< HEAD
               
+=======
+              <div className="text-center text-sm text-slate-400 mt-4">
+                Default Admin: admin@gym.com / Admin@123
+              </div>
+>>>>>>> e755393e123c1ef65b397b1c017ec917c760836a
             </form>
           </CardContent>
         </Card>
